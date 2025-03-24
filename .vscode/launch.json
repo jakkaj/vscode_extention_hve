@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Extension with Test Workspace",
+            "type": "extensionHost",
+            "request": "launch",
+            "runtimeExecutable": "code-insiders",
+            "args": [
+                "--new-window",
+                "${workspaceFolder}/test-workspace",
+                "--extensionDevelopmentPath=${workspaceFolder}",
+                "--folder-uri=${workspaceFolder}/test-workspace"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm: compile"
+        }
+    ]
+}
