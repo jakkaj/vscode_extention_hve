@@ -1,6 +1,8 @@
 
 # VS Code Devcontainer.json Editor Extension Specification
 
+NOTE: See the OpenAI Deep Research source for this spec: https://chatgpt.com/share/67e1e705-064c-8012-a3a6-44f7fa551466
+
 ## Overview  
 This Visual Studio Code extension (TypeScript) provides a sidebar UI to easily edit a workspace’s **`devcontainer.json`**. It focuses on two main configuration areas: Docker networking mode and GPU/CUDA access. Key features include: 
 
