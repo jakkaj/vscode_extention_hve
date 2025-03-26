@@ -1,0 +1,1 @@
+A local React + Python app in a VS Code dev container that allows users to upload an image, runs DETR (ResNet-50) object detection via a Python script called directly from Node.js, and displays results with annotated bounding boxes.
